@@ -18,21 +18,21 @@ public class MUser extends BaseEntity {
     private int idUser;
 
     @Column (name = "username")
-    private String Username;
+    private String username;
 
     @Column (name = "password")
-    private String Password;
+    private String password;
 
     @Column (name = "address")
-    private String Address;
+    private String address;
 
     @Column (name = "fullname")
-    private String Fullname;
+    private String fullname;
 
     @Column (name = "is_active")
     private Boolean isActive;
 
     @Column (name = "account_expired")
-    private Boolean AccountExpired;
+    private Boolean accountExpired;
 
 }

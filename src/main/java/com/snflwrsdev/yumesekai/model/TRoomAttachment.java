@@ -15,7 +15,14 @@ public class TRoomAttachment {
     @Column(name = "room_attachment_id")
     private int roomAttachmentId;
 
+    @Column(name = "sequence")
+    private int sequence;
 
+    @Column (name = "file_name")
+    private String fileName;
+
+    @Column(name = "file")
+    private byte[] file;
 
 
 }
